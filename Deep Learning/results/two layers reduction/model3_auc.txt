@@ -1,0 +1,2 @@
+enhancer AUC: 0.579440
+silencer AUC: 0.579441

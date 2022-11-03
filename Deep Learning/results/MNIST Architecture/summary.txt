@@ -1,0 +1,28 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d (Conv1D)             (None, 198, 32)           416       
+                                                                 
+ batch_normalization (BatchN  (None, 198, 32)          128       
+ ormalization)                                                   
+                                                                 
+ max_pooling1d (MaxPooling1D  (None, 99, 32)           0         
+ )                                                               
+                                                                 
+ flatten (Flatten)           (None, 3168)              0         
+                                                                 
+ dense (Dense)               (None, 100)               316900    
+                                                                 
+ batch_normalization_1 (Batc  (None, 100)              400       
+ hNormalization)                                                 
+                                                                 
+ dense_1 (Dense)             (None, 10)                1010      
+                                                                 
+ dense_2 (Dense)             (None, 2)                 22        
+                                                                 
+=================================================================
+Total params: 318,876
+Trainable params: 318,612
+Non-trainable params: 264
+_________________________________________________________________

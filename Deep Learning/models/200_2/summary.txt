@@ -1,0 +1,66 @@
+Model: "sequential_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d_20 (Conv1D)          (None, 192, 480)          17760     
+                                                                 
+ batch_normalization_13 (Bat  (None, 192, 480)         1920      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_13 (LeakyReLU)  (None, 192, 480)          0         
+                                                                 
+ max_pooling1d_17 (MaxPoolin  (None, 62, 480)          0         
+ g1D)                                                            
+                                                                 
+ dropout_12 (Dropout)        (None, 62, 480)           0         
+                                                                 
+ conv1d_21 (Conv1D)          (None, 59, 480)           922080    
+                                                                 
+ batch_normalization_14 (Bat  (None, 59, 480)          1920      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_14 (LeakyReLU)  (None, 59, 480)           0         
+                                                                 
+ max_pooling1d_18 (MaxPoolin  (None, 28, 480)          0         
+ g1D)                                                            
+                                                                 
+ dropout_13 (Dropout)        (None, 28, 480)           0         
+                                                                 
+ conv1d_22 (Conv1D)          (None, 25, 240)           461040    
+                                                                 
+ max_pooling1d_19 (MaxPoolin  (None, 8, 240)           0         
+ g1D)                                                            
+                                                                 
+ dropout_14 (Dropout)        (None, 8, 240)            0         
+                                                                 
+ conv1d_23 (Conv1D)          (None, 5, 320)            307520    
+                                                                 
+ batch_normalization_15 (Bat  (None, 5, 320)           1280      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_15 (LeakyReLU)  (None, 5, 320)            0         
+                                                                 
+ max_pooling1d_20 (MaxPoolin  (None, 1, 320)           0         
+ g1D)                                                            
+                                                                 
+ conv1d_24 (Conv1D)          (None, 1, 320)            102720    
+                                                                 
+ batch_normalization_16 (Bat  (None, 1, 320)           1280      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_16 (LeakyReLU)  (None, 1, 320)            0         
+                                                                 
+ max_pooling1d_21 (MaxPoolin  (None, 1, 320)           0         
+ g1D)                                                            
+                                                                 
+ flatten (Flatten)           (None, 320)               0         
+                                                                 
+ dense (Dense)               (None, 180)               57780     
+                                                                 
+ dense_1 (Dense)             (None, 2)                 362       
+                                                                 
+=================================================================
+Total params: 1,875,662
+Trainable params: 1,872,462
+Non-trainable params: 3,200
+_________________________________________________________________

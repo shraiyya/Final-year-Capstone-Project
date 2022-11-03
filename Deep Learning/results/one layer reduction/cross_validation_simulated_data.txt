@@ -1,0 +1,753 @@
+2022-05-10 12:29:16.700488: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+reading enhancers...
+1
+ 
+Epoch 1/200
+87/87 [==============================] - ETA: 0s - loss: 0.6113 - accuracy: 0.7136
+Epoch 1: val_loss improved from inf to 0.51536, saving model to /content/SilencerEnhancerPredict/examples/model_weights.hdf5
+87/87 [==============================] - 6s 30ms/step - loss: 0.6113 - accuracy: 0.7136 - val_loss: 0.5154 - val_accuracy: 0.7608
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.1974 - accuracy: 0.9314
+Epoch 2: val_loss improved from 0.51536 to 0.19321, saving model to /content/SilencerEnhancerPredict/examples/model_weights.hdf5
+87/87 [==============================] - 2s 23ms/step - loss: 0.1967 - accuracy: 0.9315 - val_loss: 0.1932 - val_accuracy: 0.9359
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.1141 - accuracy: 0.9638
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.1143 - accuracy: 0.9635 - val_loss: 0.2264 - val_accuracy: 0.9337
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0745 - accuracy: 0.9737
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0742 - accuracy: 0.9739 - val_loss: 0.4463 - val_accuracy: 0.8400
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0545 - accuracy: 0.9844
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0546 - accuracy: 0.9844 - val_loss: 0.1947 - val_accuracy: 0.9440
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0392 - accuracy: 0.9877
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0390 - accuracy: 0.9878 - val_loss: 0.5846 - val_accuracy: 0.8869
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0373 - accuracy: 0.9873
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0377 - accuracy: 0.9872 - val_loss: 0.3174 - val_accuracy: 0.9251
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0245 - accuracy: 0.9932
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0248 - accuracy: 0.9930 - val_loss: 0.2318 - val_accuracy: 0.9402
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0366 - accuracy: 0.9882
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0363 - accuracy: 0.9883 - val_loss: 0.2746 - val_accuracy: 0.9240
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0255 - accuracy: 0.9932
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0258 - accuracy: 0.9930 - val_loss: 0.2318 - val_accuracy: 0.9467
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0194 - accuracy: 0.9949
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0191 - accuracy: 0.9950 - val_loss: 0.2318 - val_accuracy: 0.9445
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0243 - accuracy: 0.9921
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0246 - accuracy: 0.9919 - val_loss: 0.2619 - val_accuracy: 0.9397
+Epoch 12: early stopping
+ 
+Score for fold 1: loss of 0.23009233176708221; accuracy of 93.9393937587738%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 13ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+2
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0484 - accuracy: 0.9866
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0480 - accuracy: 0.9867 - val_loss: 0.2163 - val_accuracy: 0.9423
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0232 - accuracy: 0.9939
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0233 - accuracy: 0.9939 - val_loss: 0.2233 - val_accuracy: 0.9494
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0232 - accuracy: 0.9921
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0242 - accuracy: 0.9919 - val_loss: 0.2169 - val_accuracy: 0.9440
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0206 - accuracy: 0.9937
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0203 - accuracy: 0.9939 - val_loss: 0.2196 - val_accuracy: 0.9418
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0126 - accuracy: 0.9967
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0126 - accuracy: 0.9968 - val_loss: 0.2375 - val_accuracy: 0.9402
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0120 - accuracy: 0.9967
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0129 - accuracy: 0.9964 - val_loss: 0.2199 - val_accuracy: 0.9477
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0197 - accuracy: 0.9932
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0194 - accuracy: 0.9934 - val_loss: 0.3496 - val_accuracy: 0.9359
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0232 - accuracy: 0.9923
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0228 - accuracy: 0.9925 - val_loss: 0.3100 - val_accuracy: 0.9359
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0162 - accuracy: 0.9952
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0166 - accuracy: 0.9950 - val_loss: 0.2420 - val_accuracy: 0.9391
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0135 - accuracy: 0.9954
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0133 - accuracy: 0.9955 - val_loss: 0.2260 - val_accuracy: 0.9467
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0159 - accuracy: 0.9950
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0161 - accuracy: 0.9950 - val_loss: 0.3342 - val_accuracy: 0.9230
+Epoch 11: early stopping
+ 
+Score for fold 2: loss of 0.21601657569408417; accuracy of 95.15151381492615%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 14ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+3
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0368 - accuracy: 0.9901
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0363 - accuracy: 0.9901 - val_loss: 0.2558 - val_accuracy: 0.9472
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0162 - accuracy: 0.9960
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0160 - accuracy: 0.9960 - val_loss: 0.2321 - val_accuracy: 0.9413
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0180 - accuracy: 0.9949
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0177 - accuracy: 0.9950 - val_loss: 0.2536 - val_accuracy: 0.9348
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0095 - accuracy: 0.9967
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0094 - accuracy: 0.9968 - val_loss: 0.2782 - val_accuracy: 0.9402
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0117 - accuracy: 0.9972
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0115 - accuracy: 0.9973 - val_loss: 0.2445 - val_accuracy: 0.9526
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0163 - accuracy: 0.9947
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0164 - accuracy: 0.9946 - val_loss: 0.3336 - val_accuracy: 0.9240
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0144 - accuracy: 0.9967
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0166 - accuracy: 0.9962 - val_loss: 0.2536 - val_accuracy: 0.9440
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0187 - accuracy: 0.9949
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0188 - accuracy: 0.9948 - val_loss: 0.2445 - val_accuracy: 0.9445
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0121 - accuracy: 0.9965
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0119 - accuracy: 0.9966 - val_loss: 0.2241 - val_accuracy: 0.9499
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9985
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0074 - accuracy: 0.9986 - val_loss: 0.3160 - val_accuracy: 0.9418
+Epoch 11/200
+86/87 [============================>.] - ETA: 0s - loss: 0.0155 - accuracy: 0.9951
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 26ms/step - loss: 0.0165 - accuracy: 0.9946 - val_loss: 0.3813 - val_accuracy: 0.9327
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0132 - accuracy: 0.9956
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0134 - accuracy: 0.9955 - val_loss: 0.2275 - val_accuracy: 0.9537
+Epoch 13/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0126 - accuracy: 0.9958
+Epoch 13: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0123 - accuracy: 0.9959 - val_loss: 0.2658 - val_accuracy: 0.9461
+Epoch 14/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0116 - accuracy: 0.9967
+Epoch 14: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0114 - accuracy: 0.9968 - val_loss: 0.2613 - val_accuracy: 0.9542
+Epoch 15/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0163 - accuracy: 0.9954
+Epoch 15: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0160 - accuracy: 0.9955 - val_loss: 0.2593 - val_accuracy: 0.9461
+Epoch 16/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0163 - accuracy: 0.9956
+Epoch 16: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0169 - accuracy: 0.9953 - val_loss: 0.3213 - val_accuracy: 0.9418
+Epoch 17/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0145 - accuracy: 0.9960
+Epoch 17: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0142 - accuracy: 0.9960 - val_loss: 0.2705 - val_accuracy: 0.9440
+Epoch 18/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0109 - accuracy: 0.9972
+Epoch 18: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0118 - accuracy: 0.9971 - val_loss: 0.2470 - val_accuracy: 0.9504
+Epoch 19/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0092 - accuracy: 0.9980
+Epoch 19: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0091 - accuracy: 0.9980 - val_loss: 0.2629 - val_accuracy: 0.9499
+Epoch 19: early stopping
+ 
+Score for fold 3: loss of 0.09989245980978012; accuracy of 97.45454788208008%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 17ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+4
+ 
+Epoch 1/200
+87/87 [==============================] - ETA: 0s - loss: 0.0143 - accuracy: 0.9973
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0143 - accuracy: 0.9973 - val_loss: 0.3670 - val_accuracy: 0.9370
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0153 - accuracy: 0.9949
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0158 - accuracy: 0.9948 - val_loss: 0.3003 - val_accuracy: 0.9418
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0207 - accuracy: 0.9939
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0204 - accuracy: 0.9941 - val_loss: 0.3110 - val_accuracy: 0.9445
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0136 - accuracy: 0.9963
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0135 - accuracy: 0.9964 - val_loss: 0.3466 - val_accuracy: 0.9316
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0130 - accuracy: 0.9969
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0131 - accuracy: 0.9969 - val_loss: 0.2720 - val_accuracy: 0.9434
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0060 - accuracy: 0.9991
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0062 - accuracy: 0.9989 - val_loss: 0.3023 - val_accuracy: 0.9477
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9985
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0076 - accuracy: 0.9984 - val_loss: 0.3017 - val_accuracy: 0.9418
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0085 - accuracy: 0.9980
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0088 - accuracy: 0.9978 - val_loss: 0.2659 - val_accuracy: 0.9467
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0112 - accuracy: 0.9969
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0110 - accuracy: 0.9969 - val_loss: 0.2363 - val_accuracy: 0.9553
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0062 - accuracy: 0.9994
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0062 - accuracy: 0.9995 - val_loss: 0.2451 - val_accuracy: 0.9526
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9985
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0073 - accuracy: 0.9986 - val_loss: 0.3026 - val_accuracy: 0.9494
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0118 - accuracy: 0.9971
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0128 - accuracy: 0.9969 - val_loss: 0.2514 - val_accuracy: 0.9494
+Epoch 13/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0147 - accuracy: 0.9956
+Epoch 13: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0146 - accuracy: 0.9957 - val_loss: 0.2462 - val_accuracy: 0.9510
+Epoch 14/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0131 - accuracy: 0.9952
+Epoch 14: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0129 - accuracy: 0.9953 - val_loss: 0.4167 - val_accuracy: 0.9003
+Epoch 15/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0094 - accuracy: 0.9978
+Epoch 15: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0104 - accuracy: 0.9975 - val_loss: 0.2704 - val_accuracy: 0.9402
+Epoch 16/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0102 - accuracy: 0.9972
+Epoch 16: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0105 - accuracy: 0.9971 - val_loss: 0.2935 - val_accuracy: 0.9553
+Epoch 17/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0304 - accuracy: 0.9908
+Epoch 17: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0302 - accuracy: 0.9908 - val_loss: 0.2402 - val_accuracy: 0.9499
+Epoch 18/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0108 - accuracy: 0.9974
+Epoch 18: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0114 - accuracy: 0.9971 - val_loss: 0.2422 - val_accuracy: 0.9531
+Epoch 19/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0145 - accuracy: 0.9956
+Epoch 19: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0143 - accuracy: 0.9957 - val_loss: 0.3608 - val_accuracy: 0.9461
+Epoch 19: early stopping
+ 
+Score for fold 4: loss of 0.19407188892364502; accuracy of 95.99999785423279%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 17ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+5
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0226 - accuracy: 0.9947
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0223 - accuracy: 0.9948 - val_loss: 0.2104 - val_accuracy: 0.9542
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0085 - accuracy: 0.9980
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0084 - accuracy: 0.9980 - val_loss: 0.2570 - val_accuracy: 0.9558
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0119 - accuracy: 0.9972
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0117 - accuracy: 0.9973 - val_loss: 0.2300 - val_accuracy: 0.9542
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0067 - accuracy: 0.9993
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0067 - accuracy: 0.9993 - val_loss: 0.2662 - val_accuracy: 0.9483
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0049 - accuracy: 0.9994
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0048 - accuracy: 0.9995 - val_loss: 0.2804 - val_accuracy: 0.9531
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0103 - accuracy: 0.9974
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0106 - accuracy: 0.9971 - val_loss: 0.3278 - val_accuracy: 0.9467
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0132 - accuracy: 0.9961
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0135 - accuracy: 0.9959 - val_loss: 0.2462 - val_accuracy: 0.9515
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0117 - accuracy: 0.9972
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0123 - accuracy: 0.9969 - val_loss: 0.2401 - val_accuracy: 0.9520
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0072 - accuracy: 0.9987
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0073 - accuracy: 0.9986 - val_loss: 0.2700 - val_accuracy: 0.9461
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0133 - accuracy: 0.9958
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0132 - accuracy: 0.9959 - val_loss: 0.2449 - val_accuracy: 0.9510
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0113 - accuracy: 0.9974
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0112 - accuracy: 0.9975 - val_loss: 0.2902 - val_accuracy: 0.9477
+Epoch 11: early stopping
+ 
+Score for fold 5: loss of 0.0978783518075943; accuracy of 97.93939590454102%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 17ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+6
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0132 - accuracy: 0.9969
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0137 - accuracy: 0.9966 - val_loss: 0.3572 - val_accuracy: 0.9418
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0175 - accuracy: 0.9945
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0181 - accuracy: 0.9942 - val_loss: 0.2184 - val_accuracy: 0.9494
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0140 - accuracy: 0.9961
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0137 - accuracy: 0.9962 - val_loss: 0.2165 - val_accuracy: 0.9612
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0145 - accuracy: 0.9960
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0143 - accuracy: 0.9960 - val_loss: 0.2187 - val_accuracy: 0.9558
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0116 - accuracy: 0.9965
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0118 - accuracy: 0.9962 - val_loss: 0.2571 - val_accuracy: 0.9483
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0075 - accuracy: 0.9985
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0074 - accuracy: 0.9986 - val_loss: 0.2579 - val_accuracy: 0.9558
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0087 - accuracy: 0.9983
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0087 - accuracy: 0.9984 - val_loss: 0.2598 - val_accuracy: 0.9553
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0058 - accuracy: 0.9989
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0058 - accuracy: 0.9989 - val_loss: 0.2375 - val_accuracy: 0.9569
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0102 - accuracy: 0.9982
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0100 - accuracy: 0.9982 - val_loss: 0.3361 - val_accuracy: 0.9472
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0081 - accuracy: 0.9983
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0081 - accuracy: 0.9984 - val_loss: 0.2550 - val_accuracy: 0.9547
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0129 - accuracy: 0.9961
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 22ms/step - loss: 0.0128 - accuracy: 0.9962 - val_loss: 0.2224 - val_accuracy: 0.9542
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0094 - accuracy: 0.9982
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0094 - accuracy: 0.9982 - val_loss: 0.2722 - val_accuracy: 0.9520
+Epoch 13/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0079 - accuracy: 0.9982
+Epoch 13: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0079 - accuracy: 0.9982 - val_loss: 0.2198 - val_accuracy: 0.9569
+Epoch 13: early stopping
+ 
+Score for fold 6: loss of 0.12726952135562897; accuracy of 97.93939590454102%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 14ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+7
+ 
+Epoch 1/200
+87/87 [==============================] - ETA: 0s - loss: 0.0070 - accuracy: 0.9986
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0070 - accuracy: 0.9986 - val_loss: 0.2884 - val_accuracy: 0.9542
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0076 - accuracy: 0.9980
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0075 - accuracy: 0.9980 - val_loss: 0.3148 - val_accuracy: 0.9472
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0100 - accuracy: 0.9972
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0100 - accuracy: 0.9971 - val_loss: 0.3026 - val_accuracy: 0.9477
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0091 - accuracy: 0.9983
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0090 - accuracy: 0.9984 - val_loss: 0.3143 - val_accuracy: 0.9526
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0112 - accuracy: 0.9982
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0110 - accuracy: 0.9982 - val_loss: 0.2884 - val_accuracy: 0.9510
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0066 - accuracy: 0.9991
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0066 - accuracy: 0.9991 - val_loss: 0.2905 - val_accuracy: 0.9499
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0092 - accuracy: 0.9983
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0091 - accuracy: 0.9984 - val_loss: 0.2870 - val_accuracy: 0.9531
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0104 - accuracy: 0.9978
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0103 - accuracy: 0.9978 - val_loss: 0.2929 - val_accuracy: 0.9526
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0128 - accuracy: 0.9967
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0127 - accuracy: 0.9968 - val_loss: 0.3058 - val_accuracy: 0.9477
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0107 - accuracy: 0.9982
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0106 - accuracy: 0.9982 - val_loss: 0.3037 - val_accuracy: 0.9526
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0081 - accuracy: 0.9987
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0081 - accuracy: 0.9987 - val_loss: 0.2998 - val_accuracy: 0.9472
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0052 - accuracy: 0.9996
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0052 - accuracy: 0.9996 - val_loss: 0.3041 - val_accuracy: 0.9520
+Epoch 13/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0082 - accuracy: 0.9982
+Epoch 13: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0081 - accuracy: 0.9982 - val_loss: 0.3189 - val_accuracy: 0.9520
+Epoch 14/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0111 - accuracy: 0.9972
+Epoch 14: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0110 - accuracy: 0.9973 - val_loss: 0.3766 - val_accuracy: 0.9246
+Epoch 15/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0121 - accuracy: 0.9972
+Epoch 15: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0119 - accuracy: 0.9973 - val_loss: 0.2957 - val_accuracy: 0.9472
+Epoch 16/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0109 - accuracy: 0.9976
+Epoch 16: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0107 - accuracy: 0.9977 - val_loss: 0.2980 - val_accuracy: 0.9520
+Epoch 17/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0070 - accuracy: 0.9991
+Epoch 17: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0069 - accuracy: 0.9991 - val_loss: 0.3180 - val_accuracy: 0.9488
+Epoch 17: early stopping
+ 
+Score for fold 7: loss of 0.05214976891875267; accuracy of 98.90776872634888%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 15ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+8
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0141 - accuracy: 0.9961
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0139 - accuracy: 0.9962 - val_loss: 0.2713 - val_accuracy: 0.9510
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0134 - accuracy: 0.9967
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0133 - accuracy: 0.9968 - val_loss: 0.2468 - val_accuracy: 0.9477
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0097 - accuracy: 0.9980
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0097 - accuracy: 0.9980 - val_loss: 0.2571 - val_accuracy: 0.9564
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9985
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0074 - accuracy: 0.9986 - val_loss: 0.3571 - val_accuracy: 0.9337
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0122 - accuracy: 0.9978
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0121 - accuracy: 0.9978 - val_loss: 0.2587 - val_accuracy: 0.9526
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0125 - accuracy: 0.9976
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0124 - accuracy: 0.9977 - val_loss: 0.2662 - val_accuracy: 0.9477
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0098 - accuracy: 0.9985
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0097 - accuracy: 0.9986 - val_loss: 0.2666 - val_accuracy: 0.9510
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0094 - accuracy: 0.9983
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0093 - accuracy: 0.9984 - val_loss: 0.2939 - val_accuracy: 0.9504
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0071 - accuracy: 0.9991
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0071 - accuracy: 0.9991 - val_loss: 0.2999 - val_accuracy: 0.9537
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0098 - accuracy: 0.9983
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0098 - accuracy: 0.9984 - val_loss: 0.2663 - val_accuracy: 0.9569
+Epoch 11/200
+87/87 [==============================] - ETA: 0s - loss: 0.0080 - accuracy: 0.9987
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0080 - accuracy: 0.9987 - val_loss: 0.2748 - val_accuracy: 0.9450
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0102 - accuracy: 0.9978
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0100 - accuracy: 0.9978 - val_loss: 0.2674 - val_accuracy: 0.9553
+Epoch 12: early stopping
+ 
+Score for fold 8: loss of 0.1217418983578682; accuracy of 98.05825352668762%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 14ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+9
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0190 - accuracy: 0.9958
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0192 - accuracy: 0.9957 - val_loss: 0.2776 - val_accuracy: 0.9450
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0118 - accuracy: 0.9976
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0131 - accuracy: 0.9973 - val_loss: 0.2526 - val_accuracy: 0.9477
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0115 - accuracy: 0.9971
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0114 - accuracy: 0.9971 - val_loss: 0.2526 - val_accuracy: 0.9558
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0058 - accuracy: 0.9994
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0057 - accuracy: 0.9995 - val_loss: 0.2568 - val_accuracy: 0.9547
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0057 - accuracy: 0.9994
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0056 - accuracy: 0.9995 - val_loss: 0.2672 - val_accuracy: 0.9553
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0065 - accuracy: 0.9994
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0065 - accuracy: 0.9995 - val_loss: 0.2539 - val_accuracy: 0.9574
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0062 - accuracy: 0.9993
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0062 - accuracy: 0.9993 - val_loss: 0.4269 - val_accuracy: 0.9386
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0121 - accuracy: 0.9971
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0120 - accuracy: 0.9971 - val_loss: 0.2694 - val_accuracy: 0.9585
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0118 - accuracy: 0.9978
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0116 - accuracy: 0.9978 - val_loss: 0.2603 - val_accuracy: 0.9542
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0096 - accuracy: 0.9983
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0095 - accuracy: 0.9984 - val_loss: 0.2477 - val_accuracy: 0.9601
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9989
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0073 - accuracy: 0.9989 - val_loss: 0.2613 - val_accuracy: 0.9510
+Epoch 12/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0049 - accuracy: 1.0000
+Epoch 12: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0049 - accuracy: 1.0000 - val_loss: 0.2837 - val_accuracy: 0.9580
+Epoch 13/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0062 - accuracy: 0.9994
+Epoch 13: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0062 - accuracy: 0.9995 - val_loss: 0.2785 - val_accuracy: 0.9580
+Epoch 14/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0051 - accuracy: 0.9998
+Epoch 14: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0051 - accuracy: 0.9998 - val_loss: 0.2841 - val_accuracy: 0.9585
+Epoch 15/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0078 - accuracy: 0.9989
+Epoch 15: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0084 - accuracy: 0.9987 - val_loss: 0.3068 - val_accuracy: 0.9494
+Epoch 16/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0119 - accuracy: 0.9978
+Epoch 16: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0118 - accuracy: 0.9978 - val_loss: 0.2533 - val_accuracy: 0.9537
+Epoch 17/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0130 - accuracy: 0.9967
+Epoch 17: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0133 - accuracy: 0.9966 - val_loss: 0.2357 - val_accuracy: 0.9585
+Epoch 18/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0113 - accuracy: 0.9974
+Epoch 18: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0113 - accuracy: 0.9975 - val_loss: 0.2529 - val_accuracy: 0.9585
+Epoch 19/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0212 - accuracy: 0.9943
+Epoch 19: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0208 - accuracy: 0.9944 - val_loss: 0.2353 - val_accuracy: 0.9531
+Epoch 20/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9994
+Epoch 20: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0076 - accuracy: 0.9995 - val_loss: 0.2719 - val_accuracy: 0.9558
+Epoch 21/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0067 - accuracy: 0.9991
+Epoch 21: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0066 - accuracy: 0.9991 - val_loss: 0.2801 - val_accuracy: 0.9547
+Epoch 22/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0190 - accuracy: 0.9960
+Epoch 22: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0187 - accuracy: 0.9960 - val_loss: 0.2616 - val_accuracy: 0.9499
+Epoch 23/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0077 - accuracy: 0.9987
+Epoch 23: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0076 - accuracy: 0.9987 - val_loss: 0.2983 - val_accuracy: 0.9531
+Epoch 24/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0079 - accuracy: 0.9991
+Epoch 24: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0078 - accuracy: 0.9991 - val_loss: 0.3147 - val_accuracy: 0.9510
+Epoch 25/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0112 - accuracy: 0.9989
+Epoch 25: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0111 - accuracy: 0.9989 - val_loss: 0.2692 - val_accuracy: 0.9515
+Epoch 26/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0057 - accuracy: 0.9994
+Epoch 26: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0056 - accuracy: 0.9995 - val_loss: 0.2932 - val_accuracy: 0.9504
+Epoch 27/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0070 - accuracy: 0.9989
+Epoch 27: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0071 - accuracy: 0.9987 - val_loss: 0.3595 - val_accuracy: 0.9483
+Epoch 28/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0118 - accuracy: 0.9971
+Epoch 28: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0119 - accuracy: 0.9969 - val_loss: 0.3193 - val_accuracy: 0.9467
+Epoch 29/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0121 - accuracy: 0.9980
+Epoch 29: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0120 - accuracy: 0.9980 - val_loss: 0.3040 - val_accuracy: 0.9488
+Epoch 29: early stopping
+ 
+Score for fold 9: loss of 0.14774739742279053; accuracy of 97.69417643547058%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 14ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+10
+ 
+Epoch 1/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0147 - accuracy: 0.9972
+Epoch 1: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0147 - accuracy: 0.9971 - val_loss: 0.2558 - val_accuracy: 0.9542
+Epoch 2/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0095 - accuracy: 0.9980
+Epoch 2: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0097 - accuracy: 0.9978 - val_loss: 0.2716 - val_accuracy: 0.9477
+Epoch 3/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0105 - accuracy: 0.9983
+Epoch 3: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0104 - accuracy: 0.9984 - val_loss: 0.2934 - val_accuracy: 0.9477
+Epoch 4/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0057 - accuracy: 1.0000
+Epoch 4: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0057 - accuracy: 1.0000 - val_loss: 0.2965 - val_accuracy: 0.9520
+Epoch 5/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0054 - accuracy: 0.9998
+Epoch 5: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0054 - accuracy: 0.9998 - val_loss: 0.3772 - val_accuracy: 0.9332
+Epoch 6/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0125 - accuracy: 0.9974
+Epoch 6: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0123 - accuracy: 0.9975 - val_loss: 0.2858 - val_accuracy: 0.9467
+Epoch 7/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0114 - accuracy: 0.9982
+Epoch 7: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0112 - accuracy: 0.9982 - val_loss: 0.3225 - val_accuracy: 0.9456
+Epoch 8/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0120 - accuracy: 0.9967
+Epoch 8: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0118 - accuracy: 0.9968 - val_loss: 0.2979 - val_accuracy: 0.9499
+Epoch 9/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0137 - accuracy: 0.9976
+Epoch 9: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 23ms/step - loss: 0.0136 - accuracy: 0.9977 - val_loss: 0.3286 - val_accuracy: 0.9429
+Epoch 10/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0117 - accuracy: 0.9978
+Epoch 10: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 25ms/step - loss: 0.0116 - accuracy: 0.9978 - val_loss: 0.3173 - val_accuracy: 0.9467
+Epoch 11/200
+85/87 [============================>.] - ETA: 0s - loss: 0.0130 - accuracy: 0.9971
+Epoch 11: val_loss did not improve from 0.19321
+87/87 [==============================] - 2s 24ms/step - loss: 0.0128 - accuracy: 0.9971 - val_loss: 0.2926 - val_accuracy: 0.9510
+Epoch 11: early stopping
+ 
+Score for fold 10: loss of 0.058431413024663925; accuracy of 99.02912378311157%
+reading samples...
+prediction on test samples ...
+5/5 [==============================] - 0s 18ms/step
+Keys: <KeysViewHDF5 ['ypred']>
+<Figure size 640x480 with 1 Axes>
+------------------------------------------------------------------------
+Score per fold
+------------------------------------------------------------------------
+> Fold 1 - Loss: 0.23009233176708221 - Accuracy: 93.9393937587738%
+------------------------------------------------------------------------
+> Fold 2 - Loss: 0.21601657569408417 - Accuracy: 95.15151381492615%
+------------------------------------------------------------------------
+> Fold 3 - Loss: 0.09989245980978012 - Accuracy: 97.45454788208008%
+------------------------------------------------------------------------
+> Fold 4 - Loss: 0.19407188892364502 - Accuracy: 95.99999785423279%
+------------------------------------------------------------------------
+> Fold 5 - Loss: 0.0978783518075943 - Accuracy: 97.93939590454102%
+------------------------------------------------------------------------
+> Fold 6 - Loss: 0.12726952135562897 - Accuracy: 97.93939590454102%
+------------------------------------------------------------------------
+> Fold 7 - Loss: 0.05214976891875267 - Accuracy: 98.90776872634888%
+------------------------------------------------------------------------
+> Fold 8 - Loss: 0.1217418983578682 - Accuracy: 98.05825352668762%
+------------------------------------------------------------------------
+> Fold 9 - Loss: 0.14774739742279053 - Accuracy: 97.69417643547058%
+------------------------------------------------------------------------
+> Fold 10 - Loss: 0.058431413024663925 - Accuracy: 99.02912378311157%
+------------------------------------------------------------------------
+Average scores for all folds:
+> Accuracy: 97.21135675907135 (+- 1.5705969767735715)
+> Loss: 0.13452916070818902
+------------------------------------------------------------------------
+
+
+KFOLD =10
+test acc: 
+[0.9427080878540792, 0.9575374669409344, 0.9659922032341268, 0.9538810128367894, 0.960375427825412, 0.9708370646179949, 0.9647991045127842, 0.9562175661075787, 0.9721436651583711, 0.9620322557826979]
+test auc:
+[0.943030303030303, 0.9575757575757575, 0.9660606060606061, 0.953939393939394, 0.96, 0.9709090909090909, 0.9648058252427184, 0.9563106796116505, 0.9720873786407767, 0.962378640776699]
+

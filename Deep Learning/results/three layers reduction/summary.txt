@@ -1,0 +1,27 @@
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d (Conv1D)             (None, 192, 480)          17760     
+                                                                 
+ batch_normalization (BatchN  (None, 192, 480)         1920      
+ ormalization)                                                   
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 192, 480)          0         
+                                                                 
+ max_pooling1d (MaxPooling1D  (None, 62, 480)          0         
+ )                                                               
+                                                                 
+ dropout (Dropout)           (None, 62, 480)           0         
+                                                                 
+ flatten (Flatten)           (None, 29760)             0         
+                                                                 
+ dense (Dense)               (None, 180)               5356980   
+                                                                 
+ dense_1 (Dense)             (None, 2)                 362       
+                                                                 
+=================================================================
+Total params: 5,377,022
+Trainable params: 5,376,062
+Non-trainable params: 960
+_________________________________________________________________

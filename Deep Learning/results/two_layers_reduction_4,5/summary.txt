@@ -1,0 +1,46 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d (Conv1D)             (None, 192, 480)          17760     
+                                                                 
+ batch_normalization (BatchN  (None, 192, 480)         1920      
+ ormalization)                                                   
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 192, 480)          0         
+                                                                 
+ max_pooling1d (MaxPooling1D  (None, 62, 480)          0         
+ )                                                               
+                                                                 
+ dropout (Dropout)           (None, 62, 480)           0         
+                                                                 
+ conv1d_1 (Conv1D)           (None, 59, 480)           922080    
+                                                                 
+ batch_normalization_1 (Batc  (None, 59, 480)          1920      
+ hNormalization)                                                 
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 59, 480)           0         
+                                                                 
+ max_pooling1d_1 (MaxPooling  (None, 28, 480)          0         
+ 1D)                                                             
+                                                                 
+ dropout_1 (Dropout)         (None, 28, 480)           0         
+                                                                 
+ conv1d_2 (Conv1D)           (None, 25, 240)           461040    
+                                                                 
+ max_pooling1d_2 (MaxPooling  (None, 8, 240)           0         
+ 1D)                                                             
+                                                                 
+ dropout_2 (Dropout)         (None, 8, 240)            0         
+                                                                 
+ flatten (Flatten)           (None, 1920)              0         
+                                                                 
+ dense (Dense)               (None, 180)               345780    
+                                                                 
+ dense_1 (Dense)             (None, 2)                 362       
+                                                                 
+=================================================================
+Total params: 1,750,862
+Trainable params: 1,748,942
+Non-trainable params: 1,920
+_________________________________________________________________
